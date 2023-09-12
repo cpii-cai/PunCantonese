@@ -16,16 +16,16 @@ The model exploits pre-trained language models to obtain a good network initiali
 ![](./assets/model_figure_Mar8.png)
 
 
-
-
 ## Training
 To train our model with default settings and with both multitask learning and jyutping embedding on, run the following command
 ```
 python src/train_jyupin_multi.py --cuda=True --pretrained-model=bert-base-multilingual-uncased --freeze-bert=False --lstm-dim=-1 --seed=0 --lr=2e-5 --epoch=15 --use-crf=False --data-path=data --save-path=out --batch-size=32 --sequence-length=128 --loss=focal --multitask=True --jyutping=True
 ```
 
-## Cite this work
+## Acknowledgements
 
-```
+This project is based on modifications made to the original code from [Punctuation Restoration using Transformer Models](https://github.com/xashru/punctuation-restoration). Special thanks to the authors from this work for providing the excellent code base. 
 
-```
+## License
+
+This repository is under the [Apache License 2.0](https://github.com/apache/.github/blob/main/LICENSE). 
