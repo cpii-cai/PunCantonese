@@ -1,6 +1,6 @@
 # PunCantonese: A Benchmark Corpus for Low-Resource Cantonese Punctuation Restoration from Speech Transcripts
 
-This repository contains the data and source code of the  paper accepted at the InterSpeech2023, *PunCantonese: A Benchmark Corpus for Low-Resource Cantonese* *Punctuation Restoration from Speech Transcripts*.
+This repository contains the data and source code of the  paper accepted at the InterSpeech2023, ***[PunCantonese: A Benchmark Corpus for Low-Resource Cantonese Punctuation Restoration from Speech Transcripts](https://www.isca-speech.org/archive/pdfs/interspeech_2023/li23z_interspeech.pdf).***
 
 
 ## Data
