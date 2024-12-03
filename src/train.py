@@ -270,9 +270,9 @@ def test(data_loader):
                     cm[cor][prd] += 1
 
     # ignore first index which is for no punctuation
-    tp[-1] = np.sum(tp[1:4])
-    fp[-1] = np.sum(fp[1:4])
-    fn[-1] = np.sum(fn[1:4])
+    tp[-1] = np.sum(tp[1:5])
+    fp[-1] = np.sum(fp[1:5])
+    fn[-1] = np.sum(fn[1:5])
     precision = tp/(tp+fp)
     recall = tp/(tp+fn)
     f1 = 2 * precision * recall / (precision + recall)
